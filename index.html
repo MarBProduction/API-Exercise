@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Example description">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="" />
+
+    <title>API Exercise</title>
+
+    <!-- Script til at tilføje et customized interaktivt kort -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- Script til at placere en marker et bestemt sted på det interaktive kort -->
+    <script src="https://unpkg.com/es6-promise@4.2.4/dist/es6-promise.auto.min.js"></script>
+    <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+</head>
+
+<body>
+    <div id="backgroundImg"></div>
+    <div id="wrapper">
+        <header>
+            <h1>Oktoberfest på kollegie</h1>
+        </header>
+        <main>
+
+            <p id="introtext">Kom og være med til den vilde årlige Oktoberfest på Ravensbjerg Kollegie.</p>
+            <p>Som del af vores jubilærum, har vi åbnet vores døre for offentligheden, og alle er velkommen til at deltage i de mange aktiviteter som vores beboer har sat op, helt gratis.</p>
+            <p>Så vi håber at du er frisk på at fejre øllet sammen med os.</p>
+
+            <div id="practicInfo">
+                <div id="map"></div>
+
+                <div id="weatherDateTime">
+                    <div id="weather"></div>
+                    <p id="dateTime">Festen starter:<br>
+                    d. 3. oktober<br>
+                    kl: 15:00</p>
+                </div>
+                
+            </div>
+
+        </main>
+        <footer>
+            <p>Adresse: Risdalsvej 42, 8260 Viby J</p>
+        </footer>
+
+        <!-- load jQuery library -->
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+        <!-- load JavaScript -->
+        <script src="js/js.js"></script>
+    </div>
+</body>
+
+</html>

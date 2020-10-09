@@ -1,0 +1,76 @@
+/**
+ * file: css/style.css
+ **/
+
+body {
+    margin: 0;
+    font-size: 20px;
+    /*color: #5BD9F5;*/
+    color: #fff;
+}
+
+#backgroundImg {
+    background-image: url(../img/wood-background.jpg);
+    position: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+#wrapper {
+    background-color: rgba(245, 117, 5, 0.6);
+    margin: 0 auto;
+    width: 1000px;
+    padding: 3em 1em;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+}
+
+main p {
+    font-size: 2em;
+    margin: 3em 0;
+    text-align: center;
+}
+
+#introtext {
+    font-weight: bold;
+}
+
+#practicInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#map {
+    height: 300px;
+    width: 70%;
+}
+
+#weatherDateTime {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#weather {
+    width: 100%;
+}
+
+#practicInfo #dateTime{
+    margin: 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#weather .weatherInfo {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
